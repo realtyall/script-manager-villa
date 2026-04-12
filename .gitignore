@@ -1,0 +1,13 @@
+.venv/
+.claude/
+__pycache__/
+*.pdf
+*.md
+generate_pdf.py
+발췌본_스타일.css
+ebook_mockup_consultant.png
+ebook_mockup_fieldmanager.png
+ebook_mockup_realtor.png
+prologue_gemini.md
+상세페이지_기획서.md
+작업일지.md
