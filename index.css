@@ -322,6 +322,34 @@ ul {
   margin: 10px 0;
 }
 
+/* Purchase CTA */
+.purchase-btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+    color: var(--text-white);
+    font-size: 1.4rem;
+    font-weight: 800;
+    border-radius: 50px;
+    box-shadow: 0 15px 35px rgba(201, 168, 76, 0.4);
+    transition: var(--transition);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.purchase-btn:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 20px 45px rgba(201, 168, 76, 0.6);
+    color: var(--text-white);
+}
+
+.purchase-info {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
   .hero-grid { grid-template-columns: 1fr; text-align: center; }
@@ -333,4 +361,5 @@ ul {
   .section { padding: 60px 0; }
   .section-title { font-size: 2rem; }
   .hero-content h1 { font-size: 2rem; }
+  .purchase-btn { padding: 18px 30px; font-size: 1.2rem; }
 }
